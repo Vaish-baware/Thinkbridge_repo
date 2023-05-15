@@ -12,7 +12,7 @@ public class BubbleSortExample {
                          }  
                           
                  }  
-         }  
+         } 
   
     }  
     public static void main(String[] args) {  
