@@ -9,6 +9,7 @@ public class BubbleSortExample {
                                  temp = arr[j-1];  
                                  arr[j-1] = arr[j];  
                                  arr[j] = temp;  
+                                
                          }  
                           
                  }  
@@ -16,7 +17,7 @@ public class BubbleSortExample {
   
     }  
     public static void main(String[] args) {  
-                int arr[] ={3,60,35,2,45,320,5};  
+                int arr[] ={1,2,3,65,43,78,34,2};  
                  
                 System.out.println("Array Before Bubble Sort");  
                 for(int i=0; i < arr.length; i++){  
