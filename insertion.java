@@ -9,11 +9,12 @@ public class InsertionSortExample {
                 i--;  
             }  
             array[i+1] = key;  
+            // Adding one to Array
         }  
     }  
        
     public static void main(String a[]){    
-        int[] arr1 = {9,14,3,2,43,11,58,22};    
+        int[] arr1 = {9,14,3,2,43,11,58,22,67};    
         System.out.println("Before Insertion Sort");    
         for(int i:arr1){    
             System.out.print(i+" ");    
