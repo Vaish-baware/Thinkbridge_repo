@@ -27,7 +27,7 @@ public class BubbleSortExample {
                 }  
                 System.out.println();  
                   
-                bubbleSort(arr);//sorting array elements using bubble sort  
+                bubbleSort(arr);//sorting array elements using bubble sort algo 
                  
                 System.out.println("Array After Bubble Sort");  
                 for(int i=0; i < arr.length; i++){  
