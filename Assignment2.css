@@ -1,0 +1,311 @@
+
+@media screen and (min-device-width:1094px)
+    and (max-device-width:2000px) {
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.Assignment2-main{
+    height: 123vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 45% 30% 25%;
+    
+
+}
+.web-1{
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 2rem 0 2rem;
+}
+#web-p{
+    font-size: 45px;
+    font-weight: 700;
+}
+#web-2p{
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+    padding-top: 1rem;
+}
+#web-3p{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 17px;
+}
+.web-button{
+    height: 2.2rem;
+    width: 10rem;
+    border-radius: 4px;
+    color: rgb(87, 87, 87);
+    background-color: white;
+    font-size: 17px;
+    
+}
+.web-button:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+.web-2{
+    background-color: lightgray;
+    display: grid;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+    text-align: center;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.world, .web-setting, .leaf{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-bottom: 2px solid red;
+}
+.web-2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    color:red;
+    padding-bottom: 12px;
+}
+#web-2-p{
+    font-size: 18px;
+
+}
+.web-3{
+    background-color: rgb(75, 75, 75);
+}
+.web-3{
+    display: grid;
+    grid-template-columns: 10% 90%;
+
+}
+
+.web-address{
+    height: fit-content;
+    width: 40%;
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 17px;
+    color: white;
+    margin: auto;
+}
+.add, .con{
+   
+    height: 7rem;
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+    border-left: 4px solid white;
+}
+}
+@media screen and (min-device-width: 665px)
+    and (max-device-width: 1093px) {
+    *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+    
+    .Assignment2-main{
+        height: 123vh;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 45% 30% 25%;
+        
+    
+    }
+    .web-1{
+        background-color: rgb(255, 255, 255);
+        padding: 1rem 1rem 0 1rem;
+    }
+    #web-p{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    #web-2p{
+        font-size: 19px;
+        font-weight: 600;
+        color: gray;
+        padding-top: 0.4rem;
+    }
+    #web-3p{
+        padding-top: 0.3rem;
+        padding-bottom: 0.5rem;
+        font-size: 17px;
+    }
+    .web-button{
+        height: 2rem;
+        width: 8rem;
+        border-radius: 4px;
+        color: rgb(87, 87, 87);
+        background-color: white;
+        font-size: 16px;
+        
+    }
+    .web-button:hover{
+        cursor: pointer;
+        background-color: gray;
+        color: white;
+    }
+    .web-2{
+        background-color: lightgray;
+        display: grid;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+       
+        text-align: center;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+    }
+    .world, .web-setting, .leaf{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-bottom: 2px solid red;
+    }
+    .web-2 img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h2{
+        color:red;
+        padding-bottom: 12px;
+        font-size: 20px;
+    }
+    #web-2-p{
+        font-size: 16px;
+    
+    }
+    .web-3{
+        background-color: rgb(75, 75, 75);
+    }
+    .web-3{
+        display: grid;
+        grid-template-columns: 10% 90%;
+    
+    }
+    
+    .web-address{
+        height: fit-content;
+        width: 40%;
+        display: grid;
+        grid-template-columns: auto auto;
+        font-size: 17px;
+        color: white;
+        margin: auto;
+    }
+    .add, .con{
+       
+        height: 7rem;
+        padding-right: 2rem;
+        padding-left: 0.5rem;
+        border-left: 4px solid white;
+    }
+}
+
+@media screen and (min-device-width: 300px)
+    and (max-device-width: 665px) {
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        
+        .Assignment2-main{
+            height: 123vh;
+            width: 100%;
+            display: grid;
+            grid-template-rows: 45% 30% 25%;
+            
+        
+        }
+        .web-1{
+            background-color: rgb(255, 255, 255);
+            padding: 1rem 1rem 0 1rem;
+        }
+        #web-p{
+            font-size: 40px;
+            font-weight: 700;
+        }
+        #web-2p{
+            font-size: 19px;
+            font-weight: 600;
+            color: gray;
+            padding-top: 0.4rem;
+        }
+        #web-3p{
+            padding-top: 0.3rem;
+            padding-bottom: 0.5rem;
+            font-size: 17px;
+        }
+        .web-button{
+            height: 2rem;
+            width: 8rem;
+            border-radius: 4px;
+            color: rgb(87, 87, 87);
+            background-color: white;
+            font-size: 16px;
+            
+        }
+        .web-button:hover{
+            cursor: pointer;
+            background-color: gray;
+            color: white;
+        }
+        .web-2{
+            background-color: lightgray;
+            display: grid;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+           
+            text-align: center;
+            grid-template-columns: 33.3% 33.3% 33.3%;
+        }
+        .world, .web-setting, .leaf{
+            margin-left: 1rem;
+            margin-right: 1rem;
+            border-bottom: 2px solid red;
+        }
+        .web-2 img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h2{
+            color:red;
+            padding-bottom: 12px;
+            font-size: 20px;
+        }
+        #web-2-p{
+            font-size: 16px;
+        
+        }
+        .web-3{
+            background-color: rgb(75, 75, 75);
+        }
+        .web-3{
+            display: grid;
+            grid-template-columns: 10% 90%;
+        
+        }
+        
+        .web-address{
+            height: fit-content;
+            width: 40%;
+            display: grid;
+            grid-template-columns: auto auto;
+            font-size: 17px;
+            color: white;
+            margin: auto;
+        }
+        .add, .con{
+           
+            height: 7rem;
+            padding-right: 2rem;
+            padding-left: 0.5rem;
+            border-left: 4px solid white;
+        }
+
+
+
+    }

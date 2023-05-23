@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.td{
+    width: 1cm;
+    height: 1cm;
+    border: 1cm solid black;
+
+}
+.table{
+    border-collapse: collapse;
+}

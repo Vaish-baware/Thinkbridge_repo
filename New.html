@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="passport1.css" />
+</head>
+
+<body>
+  <div class="new-main">
+    <div class="new-1">
+      <p id="new-p">
+        GOVERNMENT OF INDIA, MINISTRY OF EXTERNAL AFFAIRS PASSPORT APPLICATION
+        FORM
+      </p>
+      <p id="new-p2">Application id:101</p>
+    </div>
+    <div class="new-2">
+      <p id="new-p3">Application Form For New Passport</p>
+      <p id="new-p4">1.Service Required</p>
+      <div class="new-form">
+        <form action="submit-form.php" method="post">
+          <div class="new-form-info">
+            <div class="new-form-info1">
+              <p id="n-p">1.1 Type of Application</p>
+              <label>
+                <input type="radio" name="typeOfApplication" value="normal" />
+                Normal
+              </label>
+              <label>
+                <input type="radio" name="typeOfApplication" value="tatkaal" />
+                Tatkaal
+              </label>
+              <p id="n-p">1.3 Validity Required</p>
+              <label>
+                <input type="radio" name="validityRequired" value="10years" />
+                10 Years
+              </label>
+              <label>
+                <input type="radio" name="validityRequired" value="upto18" />
+                Up to age 18 (For minors between 15 and 18 years)
+              </label>
+            </div>
+            <div class="new-form-info-2">
+              <p id="n-p">1.2 Type of Passport Booklet</p>
+              <label>
+                <input type="radio" name="typeOfBooklet" value="36pages" /> 36
+                Pages
+              </label>
+              <label>
+                <input type="radio" name="typeOfBooklet" value="60pages" /> 60
+                Pages
+              </label>
+
+              <!-- <button type="submit">Submit</button> -->
+            </div>
+          </div>
+          <div class="new-form-module-2">
+            <p id="new-p4">2.Applicants Details</p>
+            <div class="new-form-info">
+              <div class="new-form-info1">
+                <label id="module-2" for="lname">2.1 Applicants Name:</label>
+                <input type="text" id="lname" name="lname" value="" />
+
+                <p id="n-p">
+                  2.2 Are you known by any other names (aliases)?
+                </p>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="36pages" />
+                  Yes
+                </label>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="60pages" />
+                  No </label><br /><br/>
+
+                <label for="birthday">
+                  2.4 Date of Birth:
+                </label>
+                <input type="date" id="birthday" name="birthday" /><br /><br/>
+
+                <label id="module-2" for="lname">
+                
+                <label id="module-2" for="lname"> 2.6 Place of Birth (Village or Town or City):</label>
+                <input type="text" id="lname" name="lname" value="" /><br/><br/>
+                <label id="module-2" for="lname">State:</label>
+                <input type="text" id="lname" name="lname" value="" /><br/><br/>
+               
+                <p id="n-p">
+                  2.8 Citizenship of India by
+                </p>
+                <label>
+                  <input type="radio" name="" value="" />
+                  Birth
+                </label>
+                <label>
+                  <input type="radio" name="" value="" />
+                  Descent </label>
+                <label>
+                  <input type="radio" name="" value="" />
+                  Registration/ Naturalization </label>
+                <label id="module-2" for="lname">
+                  <p id="n-p">
+                    2.10 Voter ID (If available)
+                  </p>
+                </label>
+                <input type="text" id="lname" name="lname" value="" />
+                <label id="module-2" for="lname">
+                  <p id="n-p">
+                    2.12 If employed in Government/ Statutory Body/ PSU, specify organization name
+                  </p>
+                </label>
+                <input type="text" id="lname" name="lname" value="" />
+                <p id="n-p">
+                  2.14 Educational Qualification
+                </p>
+                <label>
+                  <input type="radio" name="" value="" />
+                  7th pass or less
+                </label>
+                <label>
+                  <input type="radio" name="" value="" />
+                  10th pass and above </label>
+                <label>
+                  <input type="radio" name="" value="" />
+                  Graduate and above </label>
+                <p id="n-p">
+                  2.16 Are you eligible for Non-ECR category?
+                </p>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="36pages" />
+                  Yes
+                </label>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="60pages" />
+                  No </label>
+              </div>
+              <div class="new-form-info-2">
+                <label id="module-2" for="lname">Surname:</label>
+                <input type="text" id="lname" name="lname" value="" />
+
+                <p id="n-p">2.3 Have you ever changed your name?</p>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="36pages" />
+                  Yes
+                </label>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="60pages" />
+                  No
+                </label>
+                <p id="n-p">
+                  2.5 Gender
+                </p>
+                <label>
+                  <input type="radio" name="" value="" />
+                  Female
+                </label>
+                <label>
+                  <input type="radio" name="" value="" />
+                  Male </label>
+                <label>
+                  <input type="radio" name="" value="" />
+                  Transgender </label>
+                  <label id="module-2" for="lname">District:</label>
+                  <input type="text" id="lname" name="lname" value="" /><br/><br/>
+              
+                <p id="n-p">
+                  2.7 Marital status
+                </p>
+                <label>
+                  <input type="radio" name="" value="" />
+                  Married
+                </label>
+                <label>
+                  <input type="radio" name="" value="" />
+                  Unmarried </label>
+                <label>
+                  <input type="radio" name="" value="" />
+                  Divorced </label>
+                <label id="module-2" for="lname">
+                  <p id="n-p">
+                    2.9 PAN (If available)
+                  </p>
+                </label>
+                <input type="text" id="lname" name="lname" value="" />
+                <p id="n-p">
+                  2.11 Employment Type
+                </p>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="" />
+                  PSU
+                </label>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="" />
+                  Government </label>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="" />
+                  Retired Government Servant </label>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="" />
+                  Self Employed </label>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="" />
+                  Homemaker </label>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="" />
+                  Not Employed </label>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="" />
+                  Retired-Private Service </label>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="" />
+                  Others </label>
+                <p id="n-p">2.13 Is either of your parent (in case of minor)/ spouse, a government servant?</p>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="36pages" />
+                  Yes
+                </label>
+                <label>
+                  <input type="radio" name="typeOfBooklet" value="60pages" />
+                  No
+                </label>
+                <p id="n-p">
+                  2.15 Aadhar Number
+                </p></label>
+                <input type="text" id="lname" name="lname" value="" />
+
+
+
+
+              </div>
+            </div>
+          </div>
+          <!-- <div class="New-form-module-3">
+            <p id="new-p4">3. Family Details</p>
+
+          </div> -->
+          <div class="new-form-module-2">
+            <p id="new-p4">3. Family Details</p>
+            <div class="new-form-info">
+              <div class="new-form-info1">
+
+                <label id="module-2" for="lname">3.1 Father's Given Name:</label>
+                <input type="text" id="lname" name="lname" value="" /><br/><br/>
+
+                <label id="module-2" for="lname">3.2 Mother's Given Name:</label>
+                <input type="text" id="lname" name="lname" value="" /><br/><br/>
+
+                <label id="module-2" for="lname">3.3 Legal Guardian's Given Name:</label>
+                <input type="text" id="lname" name="lname" value="" /><br/><br/>
+
+                <label id="module-2" for="lname">3.4 Spouse's Given Name:</label>
+                <input type="text" id="lname" name="lname" value="" /><br/><br/>
+                <label id="module-2" for="lname">3.5Father's Passport Number:</label>
+                <input type="text" id="lname" name="lname" value="" /><br/><br/>
+               
+
+               
+              </div>
+
+
+
+
+
+
+
+
+           
+
+
+
+              <div class="new-form-info-2">
+                <label id="module-2" for="lname">Surname</label>
+                <input type="text" id="lname" name="lname" value="" /><br/><br/>
+                <label id="module-2" for="lname">Surname</label>
+                <input type="text" id="lname" name="lname" value="" /><br/><br/>
+                <label id="module-2" for="lname">Surname</label>
+                <input type="text" id="lname" name="lname" value="" /><br/><br/>
+                <label id="module-2" for="lname">Surname</label>
+                <input type="text" id="lname" name="lname" value="" /><br/><br/>
+                <label id="module-2" for="lname">3.6 Mother's Passport Number:</label>
+                <input type="text" id="lname" name="lname" value="" /><br/><br/>
+
+               
+
+
+
+
+              </div>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

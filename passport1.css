@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.new-main{
+    height: 400vh;
+    width: 80%;
+    margin: 30px auto;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 5% 95%;
+    border: 1px solid gray;
+
+}
+
+#new-p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+#new-p2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    /* text-align: center; */
+    padding-top: 1.5rem;
+    padding-right: 2rem;
+    bottom: 0;
+    text-align-last: right;
+}
+#new-p3{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+#new-p4{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.new-form-info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* background-color: blanchedalmond; */
+    padding: 1rem;
+    font-size: 17px;
+}
+#n-p{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 19px;
+    font-weight: 600px;
+    
+}
+.new-form-info-2{
+    padding-left: 4rem;
+}
+.new-form{
+   padding: 1rem;
+}
+#module-2{
+    font-size: 19px;
+    
+   
+}
+
+.new-1{
+    background-color: rgb(214, 239, 246);
+}
+.new-form-module-2{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 100%;
+}
+
