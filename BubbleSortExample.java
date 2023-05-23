@@ -1,5 +1,3 @@
-
-//Program for Bubble Sort
 public class BubbleSortExample {  
     static void bubbleSort(int[] arr) {  
         int n = arr.length;  
